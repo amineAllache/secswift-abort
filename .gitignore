@@ -1,0 +1,19 @@
+# fichiers binaires et temporaires à ne pas pusher
+*.o
+*.so
+*.a
+*.bin
+*.exe
+*.out
+*.tar.gz
+*.zip
+*.log
+
+# dossiers à ne pas pusher
+bin/
+lib/
+build/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+.ninja*
